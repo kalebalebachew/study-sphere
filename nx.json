@@ -36,7 +36,18 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/study-sphere-e2e/**/*"]
+      "exclude": [
+        "apps/study-sphere-e2e/**/*",
+        "auth-service-e2e/**/*",
+        "apps/auth-service-e2e/**/*",
+        "apps/user-service-e2e/**/*",
+        "apps/group-service-e2e/**/*",
+        "apps/chat-service-e2e/**/*",
+        "apps/meeting-service-e2e/**/*",
+        "apps/resource-service-e2e/**/*",
+        "apps/notification-service-e2e/**/*",
+        "apps/api-gateway-e2e/**/*"
+      ]
     }
   ]
 }
